@@ -10,7 +10,7 @@ public class Array_4 {
 		ar1[2] = 3;
 		
 		// 4 추가 배열 복사 응용
-		int [] ar2 = new int [4];
+		int [] ar2 = new int [ar1.length+1];
 		for (int i=0;i<ar1.length;i++) {
 			ar2[i] = ar1[i];
 		}
